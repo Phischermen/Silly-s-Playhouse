@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef89b4998d1af6744af4a552f75a7109, type: 3}
+  m_Name: MetalCrateMaterials
+  m_EditorClassIdentifier: Assembly-CSharp::MatchThreeMaterialContainer
+  baseMaterials:
+  - {fileID: 2100000, guid: f03b554159d79e244b610ed4c67bae14, type: 2}
+  - {fileID: 2100000, guid: f03b554159d79e244b610ed4c67bae14, type: 2}
+  colorMaterials:
+  - {fileID: 2100000, guid: a32732c198843b747a9a193983d2b738, type: 2}
+  - {fileID: 2100000, guid: 3b9f6df45bb823c4b907cb31fa655fec, type: 2}
+  - {fileID: 2100000, guid: 7901efb253b429e47935da6844ee93e4, type: 2}
+  - {fileID: 2100000, guid: db7e911118fb96e448e44ff83f23eca5, type: 2}
+  destructionPrefab:
+  - {fileID: 7567421699881984828, guid: 629a6d5703af0204882eba5db683b5bb, type: 3}
+  - {fileID: 7149628488022505992, guid: f44c7f41c055c614db68c5068fe3dca2, type: 3}
+  - {fileID: 5209772452429314390, guid: da8fb492ee906da41b255551dad53293, type: 3}
+  - {fileID: 888144274200791623, guid: 77293b98b3cb52442844d807bebbb6d5, type: 3}

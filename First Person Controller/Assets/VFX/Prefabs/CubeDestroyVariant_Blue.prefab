@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7567421699183494459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 711337479, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_Name
+      value: CubeDestroyVariant_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 711337480, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 262904739, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 262904739, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 262904739, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].emitter
+      value: 
+      objectReference: {fileID: 7567421701164706266}
+    - target: {fileID: 262904739, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[1].emitter
+      value: 
+      objectReference: {fileID: 7567421699669994385}
+    - target: {fileID: 654569130, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654569130, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654569130, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654569130, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb02390aa5775414baa6c6ef7d8c28d8, type: 3}
+--- !u!198 &7567421701164706266 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2129358049, guid: fb02390aa5775414baa6c6ef7d8c28d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7567421699183494459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7567421699669994385 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 654569130, guid: fb02390aa5775414baa6c6ef7d8c28d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7567421699183494459}
+  m_PrefabAsset: {fileID: 0}
